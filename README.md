@@ -45,14 +45,14 @@ Back up any existing config first:
 HTTPS (read-only, works for public repos):
 
 ```bash
-git clone https://github.com/<user>/<repo>.git ~/.config/nvim
+git clone https://github.com/WillMirabella/nvim-config.git ~/.config/nvim
 ```
 
 SSH (needed for private repos, and for pushing changes):
 
 ```bash
 ssh-keygen -t ed25519            # then add ~/.ssh/id_ed25519.pub to GitHub → Settings → SSH keys
-git clone git@github.com:<user>/<repo>.git ~/.config/nvim
+git clone https://github.com/WillMirabella/nvim-config.git ~/.config/nvim
 ```
 
 ## 4. First launch
